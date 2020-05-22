@@ -10,80 +10,87 @@ html{
 body{
     min-height: 100%;
     font-family: 'Arial', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     background: #333;
     line-height: 2em;
 }
 
+#container{
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+}
+
+.badge{
+    font-size: 120%;
+    font-weight: bolder;
+    padding-right: 50px;
+    border-right: 1px solid #333;
+}
+
+.navbtn{
+    padding-right: 20px;
+    border-right: 1px solid #333;
+}
+
+.headtitle{
+    text-align: center;
+    font-size: 150%;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.411);
+    overflow: auto;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+nav li {
+    margin: 5px;
+    padding: 8px;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header{
+    text-align: center;
+}
+
 a{
     color: #fff;
     text-decoration: none;
-}
-
-h1{
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-#container{
-    min-height: 700px;
-    width:980px;
-    margin: 40px auto;
-    overflow: hidden;
-}
-
-#slider{
-    width: 940px;
-    height: 550px;
-    position: relative;
-    overflow: hidden;
-    float: left;
-    padding: 3px;
-    border: #fff solid 2px;
-    border-radius: 5px;
-}
-
-.slide{
-    position: absolute;
-}
-
-#picture{
-    max-height: 300px;
-    max-width: 280px;
-    bottom: 120px;
-    left: 330px;
-    border: #000 solid 2px;
-    position: absolute;
-}
-
-.slide-copy{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-    background: #7f7f7f;
-    background: rgba(0,0,0,0.5);
-}
-
-#slider img{
-    width: 940px;
-    height: 550px;
-}
-
-#prev, #next{
-    height: 60px;
-    float: left;
-    margin-top: 250px;
     cursor: pointer;
-    position: relative;
-    z-index: 100;
 }
 
-#prev{
-    margin-right: -45px;
+.txtlink{
+    color: rgb(186, 186, 250)
 }
 
-#next{
-    margin-left: -45px;
+ul, li{
+    list-style: none;
+}
+
+.slider{
+    padding-top: 50px;
+}
+
+.slider .title{
+    background: rgba(10, 10, 10, 0.467);
+    font-size: 120%;
+    text-align: center;
+    border-bottom: 1px #ddd solid;
+}
+
+.slider .text{
+    margin: 10px;
+    padding-top: 5px;
 }
