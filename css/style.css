@@ -134,6 +134,11 @@ td{
     .slider .text{
         font-size: 50%;
     }
+
+    tr{
+        font-size: 150%;
+    }
+  
 }
 
 footer{
