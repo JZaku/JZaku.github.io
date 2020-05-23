@@ -17,7 +17,7 @@ body{
 }
 
 #container{
-    width: 80%;
+    width: 65%;
     margin: auto;
     overflow: auto;
 }
@@ -106,14 +106,18 @@ ul, li{
     padding-top: 5px;
 }
 
-table, th, td{
-    border: 1px solid #333;
+th{
+    border-bottom: 1px solid #fff
 }
 
 table{
+    font-size: 125%;
     min-width: 500px;
-    margin-right: 20px;
     margin: 15px auto;
+}
+
+.hobby{
+    text-align: center;
 }
 
 td{
@@ -121,9 +125,7 @@ td{
     padding-right: 80px;
 }
 
-.skill td{
-    padding-right: 150px;
-}
+
 
 @media(max-width:1000px){
 
@@ -133,10 +135,6 @@ td{
 
     .text{
         font-size: 50%;
-    }
-
-    tr{
-        font-size: 150%;
     }
   
 }

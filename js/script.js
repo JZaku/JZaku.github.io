@@ -17,7 +17,7 @@ $(document).ready(function(){
         $(this).next()
             .slideToggle(speed)
                 // Select all other Topics
-                // .siblings('li.text')
-                //     .slideUp();
+                 .siblings('li.text')
+                    .slideUp();
     });
 });
