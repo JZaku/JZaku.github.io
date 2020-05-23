@@ -112,7 +112,7 @@ th{
 
 table{
     font-size: 125%;
-    min-width: 500px;
+    min-width: 400px;
     margin: 15px auto;
 }
 
@@ -123,6 +123,18 @@ table{
 td{
     margin: 15px;
     padding-right: 80px;
+}
+
+table .info{
+    float: left;
+}
+
+img{
+    border: 1px solid #000;
+    margin-top: 5px;
+    margin-right: 65px;
+    float: right;
+    height: 150px;
 }
 
 
