@@ -7,7 +7,7 @@ var link = {
 }
 
 $(window).ready(function(){
-    $(".badge").fadeIn(8000);
+    $(".badge").fadeIn(5000);
 });
 
 $(document).ready(function(){
@@ -17,7 +17,7 @@ $(document).ready(function(){
         $(this).next()
             .slideToggle(speed)
                 // Select all other Topics
-                .siblings('li.text')
-                     .slideUp();
+                // .siblings('li.text')
+                //     .slideUp();
     });
 });
