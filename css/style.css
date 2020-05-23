@@ -17,7 +17,7 @@ body{
 }
 
 #container{
-    width: 60%;
+    width: 80%;
     margin: auto;
     overflow: auto;
 }
@@ -131,7 +131,7 @@ td{
         width: 90%;
     }
 
-    .slider .text{
+    .text{
         font-size: 50%;
     }
 
