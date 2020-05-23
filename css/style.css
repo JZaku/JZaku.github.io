@@ -57,11 +57,18 @@ nav li {
 }
 
 h1 {
+    font-size: 250%;
     text-align: center;
+    padding-top: 15px;
     margin-bottom: 20px;
 }
 
 header{
+    text-align: center;
+}
+
+.welcome{
+    margin: 20px;
     text-align: center;
 }
 
@@ -72,7 +79,7 @@ a{
 }
 
 .txtlink{
-    color: rgb(186, 186, 250)
+    color: rgb(186, 186, 250);
 }
 
 ul, li{
@@ -80,7 +87,7 @@ ul, li{
 }
 
 .slider{
-    padding-top: 50px;
+    margin: 10px;
 }
 
 .slider .title{
@@ -88,9 +95,22 @@ ul, li{
     font-size: 120%;
     text-align: center;
     border-bottom: 1px #ddd solid;
+    cursor: pointer;
 }
 
 .slider .text{
+    display: none;
     margin: 10px;
     padding-top: 5px;
+}
+
+@media(max-width:900px){
+    #container{
+        width: 90%;
+    }
+}
+
+footer{
+    padding-top: 15px;
+    text-align: center;
 }
