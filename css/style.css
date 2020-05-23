@@ -130,11 +130,20 @@ td{
 @media(max-width:1000px){
 
     #container{
-        width: 90%;
+        width: 100%;
+    }
+
+    .welcome{
+        font-size: 80%;
     }
 
     .text{
         font-size: 50%;
+    }
+
+    table{
+        font-size: 130%;
+        min-width: 80%;
     }
   
 }
