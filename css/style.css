@@ -23,6 +23,7 @@ body{
 }
 
 .badge{
+    display: none;
     font-size: 120%;
     font-weight: bolder;
     padding-right: 50px;
@@ -34,9 +35,14 @@ body{
     border-right: 1px solid #333;
 }
 
-.headtitle{
+.header.title{
     text-align: center;
     font-size: 150%;
+}
+
+
+header{
+    text-align: center;
 }
 
 nav{
@@ -61,10 +67,6 @@ h1 {
     text-align: center;
     padding-top: 15px;
     margin-bottom: 20px;
-}
-
-header{
-    text-align: center;
 }
 
 .welcome{

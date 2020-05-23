@@ -1,5 +1,14 @@
 var action = "click";
-var speed = "500";
+var speed = "2500";
+var link = {
+    intro: 'href="html/intro.html"',
+    work: 'href="html/cv.html"',
+    porto: 'href="html/portfolio.html"'
+}
+
+$(window).ready(function(){
+    $(".badge").fadeIn(8000);
+});
 
 $(document).ready(function(){
     // Topic Handler
