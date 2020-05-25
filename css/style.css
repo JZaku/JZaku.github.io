@@ -145,7 +145,7 @@ table .info{
     display: block;
     margin: 20px auto;
     height: 400px;
-    width: 70%;
+    width: 60%;
 }
 
 @media(max-width:1000px){
