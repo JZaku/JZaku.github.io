@@ -129,14 +129,17 @@ table .info{
     float: left;
 }
 
+.info{
+    margin-left: 500px;
+}
+
 .mypic{
     border: 2px solid #000;
     margin-top: 5px;
-    margin-right: 100px;
+    margin-right: 500px;
     float: right;
     height: 150px;
 }
-
 
 .topimg .frontpic{
     display: block;
