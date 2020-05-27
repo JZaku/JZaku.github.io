@@ -27,41 +27,22 @@
         </div>
         </header>
         <div id="container">
-            <div class="welcome"><h4>Welkom op mijn persoonlijke portfolio website, hieronder zijn aantal onderwerpen in het kort.</h4></div>
-            <ul class="slider">
-                <li class="title"><h3 class="intro">Introductie</h3></li>
-                <li class="text">
-                    <p>
-                        Mijn naam is Josef, voor als je dat nog niet wist.
-                        Leuk dat je een kijkje komt nemen op mijn portfolio website.
-                        Hier op mijn website kom je meer te weten over mij, mijn werkervaring, vaardigheden en doelen. 
-                        Neem gerust een kijkje op alle pagina's, hoop dat je vind waar je voor bent gekomen. 
-                        Voor vragen kan je altijd terecht op de <a class="txtlink" href="contact.html">Contact</a> pagina, ik zal mijn best doen het zo goed mogelijk te beantwoorden.
-                        <a class="txtlink" href="intro.html">klik hier</a> als je meer wilt weten over mij.
-                    </p>
-                </li>
-                <li class="title"><h3 class="werk">Werkervaring en vaardigheden</h3></li>
-                <li class="text">
-                    <p>
-                        Om te beginnen ben ik een afgestudeerde ICT Beheerder MBO niveau 4, met een ITIL certificaat. 
-                        Heb stages gelopen bij: WHY ict group als Zabbix beheerder, LUMC als Servicedesk Medewerker en IDFocus als Zabbix beheerder. 
-                        Daarna een jaartje gewerkt bij IDFocus als Junior Consultant en daar mijn Identity Management 4.7 Technical certificaat gehaald. 
-                        <br> Mijn passie ligt toch meer bij coderen, het is zoveel uitdagender en breder dan het beheren van een systeem. Zo beheers ik HTML, CSS, JavaScript, PHP en Python.
-                        Heb online cursussen gevolgd en zo leerde ik steeds meer en kon ik steeds meer, waardoor mijn interesse alleen maar groter werd.
-                        Voor meer over mijn ervaringen en vaardigheden, klik dan hiernaast: <a class="txtlink" href="cv.html">Curriculum Vitae</a> . 
-                    </p>
-                </li>
-                <li class="title"><h3 class="porto">Portfolio</h3></li>
-                <li class="text">
-                    <p>
-                        Ik heb altijd al doelen gehad in het leven, vanaf dat ik klein was. 
-                        Met de tijd ontwikkelde mijn doelen met mij mee, maar sommige doelen zijn me altijd bij gebleven.
-                        Mijn passie heeft altijd bij ICT gelegen en dat is één van mijn doelen in het leven, er is altijd ruimte voor betering.
-                        Waarom stoppen bij goed als het altijd beter kan? 
-                        <br>Als je meer wilt zien, klik dan hiernaast: <a class="txtlink" href="cv.html" >Portfolio</a>.
-                    </p>
-                </li>
-            </ul>
+            <div class="welcome"><h4>Wil je graag contact met me opnemen, dan kan dat door hieronder de velden in te vullen.</h4></div>
+            <form method="post" name="contact_form" action="contact-form-handler.php">
+                    <div class="name">
+                        <label>Naam:</label><br>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="emailaddress">
+                        <label>E-mail adres</label><br>
+                        <input type="text" name="emailaddress">
+                    </div>
+                    <div class="message">
+                        <label>Bericht</label><br>
+                        <textarea name="message"></textarea><br>
+                        <input type="submit" value="Versturen">
+                    </div>
+            </form>
         <footer>
             <p>Copyright &copy; J.Zaku Portfolio</p>
         </footer>

@@ -148,6 +148,27 @@ table .info{
     width: 60%;
 }
 
+form {
+    margin: auto;
+    max-width: 60%;
+}
+
+input[type=text]{
+    height: 25px;
+    width: 100%;
+    padding: 10 20px;
+    margin: 8px auto;
+    box-sizing: border-box;
+}
+
+textarea{
+    height: 350px;
+    width: 100%;
+    padding: 10 20px;
+    margin: 8px auto;
+    box-sizing: border-box;
+}
+
 @media(max-width:1000px){
 
     #container{
