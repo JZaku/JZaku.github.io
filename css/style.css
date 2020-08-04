@@ -56,10 +56,8 @@ nav ul {
     display: inline;
 }
 
-nav li {
-    margin: 5px;
-    padding: 8px;
-    float: left;
+nav li :hover{
+    color: rgb(0, 255, 200);
 }
 
 h1 {
@@ -102,6 +100,19 @@ ul, li{
 
 .slider .text{
     display: none;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.homeintro .title{
+    background: rgba(10, 10, 10, 0.467);
+    font-size: 120%;
+    text-align: center;
+    border-bottom: 1px #ddd solid;
+    cursor: pointer;
+}
+
+.homeintro .text{
     margin: 10px;
     padding-top: 5px;
 }
